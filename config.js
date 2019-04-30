@@ -24,7 +24,7 @@ module.exports = {
   ],
   author: {
     name: "Charmi",
-    photo: "/media/favicon.png",
+    photo: "/media/avatar.png",
     bio: "My favourite Indian food recipes",
     contacts: {
       email: "#",
