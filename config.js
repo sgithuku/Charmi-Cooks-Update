@@ -1,26 +1,26 @@
 "use strict";
 
 module.exports = {
-  url: "https://charmicooks.netlify.com",
+  url: "https://charmicooks.netlify.app",
   title: "Blog by Charmi",
   subtitle: "I cook sometimes. ",
   copyright: "© All rights reserved.",
   disqusShortname: "",
-  postsPerPage: 4,
+  postsPerPage: 8,
   googleAnalyticsId: "#",
   menu: [
     {
       label: "Articles",
-      path: "/"
+      path: "/",
     },
     {
       label: "About me",
-      path: "/pages/about"
+      path: "/pages/about",
     },
     {
       label: "Contact me",
-      path: "/pages/contacts"
-    }
+      path: "/pages/contacts",
+    },
   ],
   author: {
     name: "Charmi",
@@ -32,7 +32,7 @@ module.exports = {
       twitter: "#",
       github: "#",
       rss: "#",
-      vkontakte: "#"
-    }
-  }
+      vkontakte: "#",
+    },
+  },
 };
