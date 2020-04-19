@@ -1,6 +1,6 @@
 ---
 title: Butter Chicken
-date: "2020-13-04T22:00:32.169Z"
+date: "2020-04-13T22:00:32.169Z"
 template: "post"
 draft: false
 slug: "/posts/butter-chicken/"
@@ -39,11 +39,11 @@ description: "Butter chicken made from scratch with all the fixings"
 ### Chicken marinade ingredients
 
 - Low fat natural yogurt
-  - Ginger
-  - Garlic
-  - Green chillies
-  - Turmeric
-  - Coriander powder
-  - Cumin powder
-  - Garam masala
-  - Red chilli powder
+    - Ginger
+    - Garlic
+    - Green chillies
+    - Turmeric
+    - Coriander powder
+    - Cumin powder
+    - Garam masala
+    - Red chilli powder

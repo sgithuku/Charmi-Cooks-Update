@@ -1,6 +1,6 @@
 ---
 title: Chicken Methi
-date: "2020-09-04T10:00:32.169Z"
+date: "2020-04-09T10:00:32.169Z"
 template: "post"
 draft: false
 slug: "/posts/chicken-methi/"
