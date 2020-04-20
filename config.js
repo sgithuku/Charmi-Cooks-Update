@@ -27,12 +27,12 @@ module.exports = {
     photo: "/media/avatar.png",
     bio: "My favourite Indian food recipes",
     contacts: {
-      email: "#",
-      telegram: "#",
-      twitter: "#",
-      github: "#",
-      rss: "#",
-      vkontakte: "#",
+      email: "charmilathia@gmail.com",
+      // telegram: "#",
+      twitter: "charmi_lathia",
+      // github: "#",
+      // rss: "#",
+      // vkontakte: "#",
     },
   },
 };

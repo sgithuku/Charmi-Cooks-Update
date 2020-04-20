@@ -1,11 +1,11 @@
 // @flow
-import React from 'react';
-import { graphql, StaticQuery } from 'gatsby';
-import Author from './Author';
-import Contacts from './Contacts';
-import Copyright from './Copyright';
-import Menu from './Menu';
-import styles from './Sidebar.module.scss';
+import React from "react";
+import { graphql, StaticQuery } from "gatsby";
+import Author from "./Author";
+import Contacts from "./Contacts";
+import Copyright from "./Copyright";
+import Menu from "./Menu";
+import styles from "./Sidebar.module.scss";
 
 type Props = {
   +isIndex: ?boolean,
@@ -16,15 +16,11 @@ type PureProps = Props & {
 };
 
 export const PureSidebar = ({ data, isIndex }: PureProps) => {
-  const {
-    author,
-    copyright,
-    menu
-  } = data.site.siteMetadata;
+  const { author, copyright, menu } = data.site.siteMetadata;
 
   return (
-    <div className={styles['sidebar']}>
-      <div className={styles['sidebar__inner']}>
+    <div className={styles["sidebar"]}>
+      <div className={styles["sidebar__inner"]}>
         <Author author={author} isIndex={isIndex} />
         <Menu menu={menu} />
         <Contacts contacts={author.contacts} />
@@ -53,18 +49,14 @@ export const Sidebar = (props: Props) => (
               bio
               contacts {
                 twitter
-                telegram
-                github
                 email
-                rss
-                vkontakte
               }
             }
           }
         }
       }
     `}
-    render={(data) => <PureSidebar {...props} data={data}/>}
+    render={(data) => <PureSidebar {...props} data={data} />}
   />
 );
 

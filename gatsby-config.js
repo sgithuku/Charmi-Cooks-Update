@@ -6,6 +6,7 @@ const postCssPlugins = require("./postcss-config.js");
 module.exports = {
   siteMetadata: {
     url: siteConfig.url,
+    siteUrl: siteConfig.url,
     title: siteConfig.title,
     subtitle: siteConfig.subtitle,
     copyright: siteConfig.copyright,
@@ -119,12 +120,12 @@ module.exports = {
     "gatsby-transformer-sharp",
     "gatsby-plugin-sharp",
     "gatsby-plugin-netlify",
-    // {
-    //   resolve: "gatsby-plugin-netlify-cms",
-    //   options: {
-    //     modulePath: `${__dirname}/src/cms/cms.js`,
-    //   },
-    // },
+    {
+      resolve: "gatsby-plugin-netlify-cms",
+      options: {
+        modulePath: `${__dirname}/src/cms/cms.js`,
+      },
+    },
     {
       resolve: "gatsby-plugin-google-gtag",
       options: {
@@ -134,38 +135,38 @@ module.exports = {
         },
       },
     },
-    // {
-    //   resolve: "gatsby-plugin-sitemap",
-    //   options: {
-    //     query: `
-    //       {
-    //         site {
-    //           siteMetadata {
-    //             url
-    //           }
-    //         }
-    //         allSitePage(
-    //           filter: {
-    //             path: { regex: "/^(?!/404/|/404.html|/dev-404-page/)/" }
-    //           }
-    //         ) {
-    //           edges {
-    //             node {
-    //               path
-    //             }
-    //           }
-    //         }
-    //       }
-    //     `,
-    //     output: "/sitemap.xml",
-    //     serialize: ({ site, allSitePage }) =>
-    //       allSitePage.edges.map((edge) => ({
-    //         url: site.siteMetadata.url + edge.node.path,
-    //         changefreq: "daily",
-    //         priority: 0.7,
-    //       })),
-    //   },
-    // },
+    {
+      resolve: "gatsby-plugin-sitemap",
+      options: {
+        query: `
+          {
+            site {
+              siteMetadata {
+                url
+              }
+            }
+            allSitePage(
+              filter: {
+                path: { regex: "/^(?!/404/|/404.html|/dev-404-page/)/" }
+              }
+            ) {
+              edges {
+                node {
+                  path
+                }
+              }
+            }
+          }
+        `,
+        output: "/sitemap.xml",
+        serialize: ({ site, allSitePage }) =>
+          allSitePage.edges.map((edge) => ({
+            url: site.siteMetadata.url + edge.node.path,
+            changefreq: "daily",
+            priority: 0.7,
+          })),
+      },
+    },
     {
       resolve: "gatsby-plugin-manifest",
       options: {
