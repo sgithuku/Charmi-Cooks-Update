@@ -1,14 +1,14 @@
 ---
-title: Sausage and Mash
-date: "2020-11-04T16:00:32.169Z"
-template: "post"
+template: post
+title: Bangers and mash
+slug: /posts/sausage-and-mash/
 draft: false
-slug: "/posts/sausage-and-mash/"
-category: "comfort-food"
+date: 2020-11-04T16:00:32.169Z
+description: One of my favourite midweek recipes.
+category: comfort-food
 tags:
-  - "Recipe"
-  - "British"
-description: "One of my favourite midweek recipes."
+  - Recipe
+  - British
 ---
 
 # Sausages stew with mash and sauteed Kale

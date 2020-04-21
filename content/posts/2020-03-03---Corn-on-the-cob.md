@@ -1,14 +1,14 @@
 ---
+template: post
 title: Corn on the cob - Upgraded
-date: "2020-03-03T10:00:32.169Z"
-template: "post"
+slug: /posts/corn-on-the-cob/
 draft: false
-slug: "/posts/corn-on-the-cob/"
-category: "Indian"
+date: 2020-04-20T19:46:25.662Z
+description: My twist on corn on the cob.
+category: Indian
 tags:
-  - "Recipe"
-  - "Indian"
-description: "My twist on corn on the cob."
+  - Recipe
+  - Indian
 ---
 
 # How to make corn on the cob even more delicious
