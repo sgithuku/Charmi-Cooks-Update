@@ -7093,14 +7093,6 @@ gatsby-plugin-flow@^1.0.4:
     "@babel/preset-flow" "^7.8.3"
     "@babel/runtime" "^7.8.7"
 
-gatsby-plugin-google-gtag@^2.0.2:
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-google-gtag/-/gatsby-plugin-google-gtag-2.0.2.tgz#437b69b4c29f2a78435755ae8a802e57ae0b3d3f"
-  integrity sha512-4BjpU4Pw+QvcJrGYvnbwNrHsIfCDRq20q9F0sYPC3qPyCsLko9nx08/kyOV5XtPtXdUZbv+FBn1aO436XWaCbw==
-  dependencies:
-    "@babel/runtime" "^7.8.7"
-    minimatch "^3.0.4"
-
 gatsby-plugin-manifest@^2.0.26:
   version "2.3.5"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-manifest/-/gatsby-plugin-manifest-2.3.5.tgz#fb46e8b4f2caaf174e5d8dd5ec5e0cbc8ef60df6"
@@ -7110,6 +7102,11 @@ gatsby-plugin-manifest@^2.0.26:
     gatsby-core-utils "^1.1.3"
     semver "^5.7.1"
     sharp "^0.25.1"
+
+gatsby-plugin-matomo@^0.8.3:
+  version "0.8.3"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-matomo/-/gatsby-plugin-matomo-0.8.3.tgz#e0e9cc9e60f7e4b157c9964dfc9d444d73bc46ee"
+  integrity sha512-fv6TgD+WsxziZrtmz6sNF4m9FgSyV+8y3R1sobA5hB5OxJyhs/Y4HVo9jCPRHu5VLKQsg4i7LJhWL0ocJiqEWQ==
 
 gatsby-plugin-netlify-cms@^4.2.4:
   version "4.2.4"

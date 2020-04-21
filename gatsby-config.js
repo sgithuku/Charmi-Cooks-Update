@@ -127,12 +127,11 @@ module.exports = {
       },
     },
     {
-      resolve: "gatsby-plugin-google-gtag",
+      resolve: "gatsby-plugin-matomo",
       options: {
-        trackingIds: [siteConfig.googleAnalyticsId],
-        pluginConfig: {
-          head: true,
-        },
+        siteId: "2",
+        matomoUrl: "https://matomo.kelele.xyz",
+        siteUrl: "https://charmicooks.netlify.app",
       },
     },
     "gatsby-plugin-sitemap",
