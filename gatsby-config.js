@@ -127,11 +127,10 @@ module.exports = {
       },
     },
     {
-      resolve: "gatsby-plugin-matomo",
+      resolve: `gatsby-plugin-plausible`,
       options: {
-        siteId: "2",
-        matomoUrl: "https://matomo.kelele.xyz",
-        siteUrl: "https://charmicooks.netlify.app",
+        domain: `charmicooks.netlify.app`,
+        customDomain: `stats.kelele.xyz/js/plausible.js?original=`,
       },
     },
     "gatsby-plugin-sitemap",
