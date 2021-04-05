@@ -130,7 +130,7 @@ module.exports = {
       resolve: `gatsby-plugin-plausible`,
       options: {
         domain: `charmicooks.netlify.app`,
-        customDomain: `stats.kelele.xyz/js/plausible.js?original=`,
+        customDomain: `plausible.monitormystuff.xyz/js/plausible.js?original=`,
       },
     },
     "gatsby-plugin-sitemap",
